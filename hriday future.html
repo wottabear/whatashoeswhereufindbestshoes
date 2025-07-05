@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Whatashoes | Sports Shoe Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background-color: #ffffff;
+      color: #333;
+    }
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1618354691373-cd00740659a1?auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-shadow: 1px 1px 3px #000;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .products {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .product {
+      border: 1px solid #ccc;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .product h3 {
+      margin: 15px 0 10px;
+    }
+    .product p {
+      color: #555;
+    }
+    .product button {
+      margin-top: 10px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Whatashoes</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Game-Changing Sports Shoes 🔥</h2>
+  </section>
+
+  <section class="section" id="products">
+    <h2 style="text-align:center; margin-bottom: 20px;">Featured Shoes</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80" alt="Shoe 1">
+        <h3>SpeedRunner X1</h3>
+        <p>₹999 - Lightweight & durable, perfect for daily runs.</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1528701800489-20f1641be1ee?auto=format&fit=crop&w=800&q=80" alt="Shoe 2">
+        <h3>CoreTrainer Pro</h3>
+        <p>₹1199 - Designed for gym & training sessions.</p>
+        <button>Buy Now</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2 style="text-align:center; margin-bottom: 20px;">Why Whatashoes?</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      Whatashoes brings the best of style and performance to your feet. We partner with fast-delivery suppliers like Meesho to offer affordable, durable, and stylish sports shoes delivered right to your door.
+    </p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2 style="text-align:center; margin-bottom: 20px;">Contact Us</h2>
+    <p style="text-align:center;">Email: support@whatashoes.in | IG: @whatashoes</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Whatashoes. All rights reserved.
+  </footer>
+</body>
+</html>
